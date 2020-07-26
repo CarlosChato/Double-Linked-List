@@ -1,4 +1,4 @@
-# Linked-List
+# Python-Linked-List
 
 Sometimes in data structures is more efficent dont use an array, and use other type of data structure. In this case we have a Linked List. For understand in wich cases is more efficent than the array, we need know how work the array in memory and how work the Linked List.
 
