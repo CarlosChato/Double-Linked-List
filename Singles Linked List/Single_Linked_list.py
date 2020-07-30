@@ -214,6 +214,11 @@ class SList():
             print('ERROR, index out of range')
             return None
         
+        #if the list is empty, we cant remove an element
+        if self.isEmpty():
+            print('ERROR,the list is empty')
+            return None
+        
         if index==0:
             #if index is 0, is equal at removeFirst
             return self.removeFirst()
